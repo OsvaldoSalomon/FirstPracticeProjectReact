@@ -1,7 +1,12 @@
+import React from "react";
+import AddUser from "./components/Users/AddUser";
+import UsersList from "./components/Users/UsersList";
+
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <AddUser />
+      <UsersList users={[]} />
     </div>
   );
 }
